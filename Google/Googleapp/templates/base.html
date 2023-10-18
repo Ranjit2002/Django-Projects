@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static "style.css" %}">
+    {% block content1 %}
+
+    {% endblock %}
+</head>
+<body>
+<h1>This is the Internation Space Station</h1>
+<img src="https://geospatialmedia.s3.amazonaws.com/wp-content/uploads/2018/08/final_configuration_of_iss.jpg" width="60%">
+<p>An international partnership of five space agencies from 15 countries operates the International Space Station.
+    Learn more about visitors to the space station by country. The space station has been continuously occupied since
+    November 2000.</p>
+{% block content %}
+
+{% endblock %}
+</body>
+</html>
